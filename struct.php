@@ -8,13 +8,15 @@
     //print_r($categorias)
     
    
-    //var_dump($nome);
-   // var_dump($idade);
- 
-   $nome = $_GET['nome'];
-   $idade = $_GET['idade'];
 
-   if($idade>= 6 && $idade <= 12){
+ 
+    $nome = $_POST['nome'];
+    $idade = $_POST['idade'];
+
+    var_dump($nome);
+    var_dump($idade);
+
+   /*if($idade>= 6 && $idade <= 12){
        
         for($i = 0; $i <= count($categorias); $i++){
             if($categorias[$i] == 'infantil'){
@@ -35,5 +37,5 @@
                echo "Nadador $nome compete na categoria adulto.";
            }
        }
-    }
+    }*/
 ?>
