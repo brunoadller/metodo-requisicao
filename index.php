@@ -9,7 +9,7 @@
 <body>
     <h1>FORMUÁRIO DE INSCRIÇÃO DE COMPETIDORES</h1>
 
-    <form action="struct.php" method="post">
+    <form action="struct.php" method="get">
         <p>Seu nome: <input type="text" name="nome" /></p>
         <p>Sua idade: <input type="text" name="idade"></p>
         <p><input type="submit" value="Send"></p>
